@@ -1,0 +1,8 @@
+window.onload = function() {
+    const dia = document.getElementById('dia');
+    dia.value = 0;
+    const hora = document.getElementById('hora');
+    hora.value = 1;
+  }
+  
+  
