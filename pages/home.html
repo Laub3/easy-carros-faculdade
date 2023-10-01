@@ -21,6 +21,11 @@
         location.href = "/index.html";
         };
     }
+    function redirectToAutos() {
+        document.getElementById("redirectToAutos").onclick = function () {
+        location.href = "/pages/autos.html";
+        };
+    }
     </script>
   <script src="./js/index.js"></script>
 </head>
@@ -30,9 +35,9 @@
     <div id="content" class="d-flex flex-column p-4">
       <div id="header" class="d-flex flex-row justify-content-between align-items-center" style="padding-left: 10%;">
         <div>
-          <span style="color: black" class="material-symbols-outlined">
+          <!-- <span style="color: black" class="material-symbols-outlined">
             arrow_back_ios
-        </span>
+        </span> -->
         </div>
         <div id="title">Alugar agora</div>
         <div class="d-flex flex-row justify-content-between align-items-center">
@@ -84,7 +89,7 @@
             <p style="font-size: 10px; padding-left: 10px; color: #206499; font-weight: 600; margin: 0;">Até R$ 5,55/h em plano de 30 dias</p>
           </div>
           <div style="display: flex; align-items: center; justify-content: center;">
-            <button type="button" style="background-color: #206499 ;border: 0px; align-items: center; justify-content: center; color: #ffffff; height: 30px; border-radius: 10px; width: 70%;">
+            <button id="redirectToAutos" onclick="redirectToAutos()" ="button" style="background-color: #206499 ;border: 0px; align-items: center; justify-content: center; color: #ffffff; height: 30px; border-radius: 10px; width: 70%;">
               Escolher
             </button>
           </div>
