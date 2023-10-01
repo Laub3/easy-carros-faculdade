@@ -138,3 +138,11 @@
       font-size: 2vw !important;
     }
   }
+
+  #tcross{
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 10px 10px 5px gray;
+  }
